@@ -17,7 +17,7 @@ const BubbleChart = () => {
   const [selectedOrigin, setSelectedOrigin] = useState("All");
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const width = 550;
+  const width = 600;
   const height = 550;
   const margin = { top: 40, right: 40, bottom: 50, left: 60 };
 
