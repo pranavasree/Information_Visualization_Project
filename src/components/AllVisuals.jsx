@@ -281,7 +281,7 @@ const AllVisuals = () => {
     // Legend
     const legend = g
       .append("g")
-      .attr("transform", `translate(${innerWidth + 2}, -20)`);
+      .attr("transform", `translate(${innerWidth - 60}, -10)`);
 
     Object.entries(originColor).forEach(([origin, color], i) => {
       const legendRow = legend
