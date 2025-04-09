@@ -139,7 +139,7 @@ const AllVisuals = () => {
     svg.selectAll("*").remove();
 
     const margin = { top: 40, right: 80, bottom: 50, left: 60 };
-    const width = 800;
+    const width = 650;
     const height = 400;
     const innerWidth = width - margin.left - margin.right;
     const innerHeight = height - margin.top - margin.bottom;
@@ -281,7 +281,7 @@ const AllVisuals = () => {
     // Legend
     const legend = g
       .append("g")
-      .attr("transform", `translate(${innerWidth - 60}, -14)`);
+      .attr("transform", `translate(${innerWidth + 2}, -20)`);
 
     Object.entries(originColor).forEach(([origin, color], i) => {
       const legendRow = legend
@@ -640,7 +640,7 @@ const AllVisuals = () => {
         </div>
 
         {/* Connected Scatter Plot */}
-        <div className="bg-[#1e1e1e] p-5 rounded-xl shadow-lg border border-gray-700 w-full mt-1">
+        <div className="bg-[#1e1e1e] p-5 rounded-xl shadow-lg border border-gray-700  mt-1">
           <div className="flex justify-between items-center mb-4">
             <h2 className="text-2xl font-bold text-white mb-4">
               Connected Scatter Plot: {connectedMetric} by Year
@@ -661,7 +661,7 @@ const AllVisuals = () => {
               </select>
             </div>
           </div>
-          <svg ref={connectedScatterRef} width={800} height={500}></svg>
+          <svg ref={connectedScatterRef} width={500} height={500}></svg>
           <div className="tooltip-connected"></div>
         </div>
 

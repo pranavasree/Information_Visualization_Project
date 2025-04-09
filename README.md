@@ -109,6 +109,10 @@ npm run dev
 
 This project is licensed Pranava Sree Pottipati, Dinesh Rohit Ravuri, Rishik Pendurthi.
 
+## Checkout the App
+
+https://pranava-rohit-rishik-iv-project.netlify.app/
+
 ---
 
 ## 🙌 Credits
