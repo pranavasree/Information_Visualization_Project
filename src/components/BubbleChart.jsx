@@ -378,7 +378,7 @@ const BubbleChart = () => {
       </div>
 
       <div className="flex gap-12 items-start justify-center">
-        <div className="w-[40%] max-w-full mt-2">
+        <div className="w-[30%] max-w-full mt-2">
           <div ref={chartRef} className="flex flex-col items-start relative">
             <div className="bg-gradient-to-br from-[#1f1f1f] to-[#121212] p-6 rounded-xl shadow-2xl border border-gray-700 relative">
               <svg ref={ref} width={width} height={height}></svg>
@@ -391,7 +391,7 @@ const BubbleChart = () => {
           </div>
         </div>
 
-        <div className="w-[60%] max-w-full mt-4">
+        <div className="w-[50%] max-w-full mt-4">
           <div className="bg-[#1a1a1a] border border-gray-700 rounded-xl p-6 shadow-lg">
             <h3 className="text-2xl font-semibold text-green-400 mb-4">
               What Does This Chart Show?
